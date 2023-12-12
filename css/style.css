@@ -3,12 +3,18 @@
     background-color: rgb(27, 114, 232);
 }
 
+.bg-blue{
+    background-color: rgb(5, 30, 52);
+}
+
 .bg-cs-gray{
     color: rgb(229, 229, 229);
 }
 
 /* ^GENERICS */
-
+body{
+    overflow: auto;
+}
 
 
 
@@ -20,22 +26,13 @@
 .container-fluid{
     border: 2px dotted red;
 }
-
-
-
-#side-navbar{
-    height: calc(100vh - 60px);
-    max-width: 80px;
-    border: 2px solid blue;
-}
-
-.row{
+[class^="row"]{
     
     border: 2px solid green;
 }
 
 [class^="col"]{
-    min-height: 50px;
+    /* min-height: 50px; */
     border: 1px solid gold;
 }
 
@@ -46,12 +43,26 @@ header{
 }
 
 header .col img{
-    max-width: 60px;
-    margin: 0 auto;
+    max-width: 70px;
 }
 
 .form-control,
 .input-group-text{
     background-color: rgb(229, 229, 229);
     line-height: 2.3rem;
+}
+
+/* ^SIDE NAVBAR */
+nav{
+    height: calc(100vh - 60px);
+    max-width: 80px;
+    border: 2px solid blue;
+    position: relative;
+    overflow: auto;
+}
+.row-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
