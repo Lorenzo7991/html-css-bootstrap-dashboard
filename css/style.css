@@ -1,4 +1,57 @@
-/* *Test html/css response */
-body{
-    background-color: blue;
+/* ^BG/COLORS UTILITIES */
+.bg-light-blue{
+    background-color: rgb(27, 114, 232);
+}
+
+.bg-cs-gray{
+    color: rgb(229, 229, 229);
+}
+
+/* ^GENERICS */
+
+
+
+
+/* ^UTILITIES */
+.container{
+    border: 2px dotted red;
+}
+
+.container-fluid{
+    border: 2px dotted red;
+}
+
+
+
+#side-navbar{
+    height: calc(100vh - 60px);
+    max-width: 80px;
+    border: 2px solid blue;
+}
+
+.row{
+    
+    border: 2px solid green;
+}
+
+[class^="col"]{
+    min-height: 50px;
+    border: 1px solid gold;
+}
+
+
+/* ^HEADER */
+header{
+    min-height: 70px;
+}
+
+header .col img{
+    max-width: 60px;
+    margin: 0 auto;
+}
+
+.form-control,
+.input-group-text{
+    background-color: rgb(229, 229, 229);
+    line-height: 2.3rem;
 }
