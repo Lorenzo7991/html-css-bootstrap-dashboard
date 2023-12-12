@@ -38,10 +38,6 @@ body{
 
 
 /* ^HEADER */
-header{
-    min-height: 70px;
-}
-
 header .col img{
     max-width: 70px;
 }
@@ -52,17 +48,24 @@ header .col img{
     line-height: 2.3rem;
 }
 
-/* ^SIDE NAVBAR */
+/* ^MAIN */
+/* *SIDE NAVBAR */
 nav{
     height: calc(100vh - 60px);
-    max-width: 80px;
+    width: 70px;
     border: 2px solid blue;
     position: relative;
-    overflow: auto;
+    display: inline;
 }
+
 .row-bottom{
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+/* *NESTED HEADER */
+#nested-header{
+    max-height: 200px;
 }
