@@ -17,6 +17,13 @@
 ul{
     list-style: none;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -35,13 +42,14 @@ ul{
 header{
         min-height: 80px;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
 
         /* !T-R */
         border: 2px solid yellow;
 }
 
 .header-list{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,7 +73,19 @@ header{
     flex-basis: 70px;
     flex-shrink: 0;
     background-color: rgb(5, 30, 52);
+    background-image: url(../assets/img/sidebar-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
+
+.bottom-sidebar{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
 
 /* ^MAIN */
 main{
