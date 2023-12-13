@@ -1,1 +1,59 @@
-                               
+/* ^CUSTOM COLORS/BACKGROUNDS */
+.bg-light-blue{
+    background-color: rgb(27, 114, 232);
+}
+
+.bg-blue{
+    background-color: rgb(5, 30, 52);
+}
+
+.bg-cs-gray{
+    color: rgb(229, 229, 229);
+} 
+
+
+
+/* ^GENERICS */
+
+
+
+
+/* ^UTILITIES */
+.wrapper{
+    display: flex;
+    height: calc(100vh - 80px);
+
+    /* !T-R */
+    background-color: rgb(229, 229, 229);
+}
+
+/* ^HEADER */
+header{
+        min-height: 80px;
+
+        /* !T-R */
+        border: 2px solid yellow;
+}
+
+
+/* ^SIDEBAR */
+.sidebar{
+    flex-basis: 100px;
+    flex-shrink: 0;
+    background-color: rgb(5, 30, 52);
+}
+
+/* ^MAIN */
+main{
+    flex-grow: 1;
+    overflow: auto;
+
+    /* !T-R */
+    background-color: purple;
+}
+
+/* *Main Header */
+.inside-header{
+    min-height: 100px;
+    background-color: rgb(27, 114, 232) ;
+}
