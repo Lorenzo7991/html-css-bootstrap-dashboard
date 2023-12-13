@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,26 +44,166 @@
                     </ul>
                 </div>
         </header>
-
+        <!-- *Start wrapper container -->
         <div class="wrapper">
-            <div class="sidebar fs-5">
+            <!-- *Start sidebar section-->
+            <section id="side-navbar" class="sidebar fs-5">
+                <!-- *Start top sidebar -->
                 <nav class="top-sidebar text-center py-4">
                     <ul>
-                        <li><a href="#" class="text-white"><i class="fa-solid fa-house mb-3"></i><span class="fs-6 d-none d-lg-inline">Home</span></a></li>
-                        <li><a href="#" class="text-white"><i class="fa-solid fa-chart-simple mb-3"></i><span class="fs-6 d-none d-lg-inline"> Stats</span></a></li>
-                        <li><a href="#" class="text-white"><i class="fa-solid fa-signal"></i><span class="fs-6 d-none d-lg-inline">Signals</span></a></li>
+                        <li><a href="#" class="text-white"><i class="fa-solid fa-house mb-3 me-lg-3"></i><span class="fs-6 d-none d-lg-inline">Home</span></a></li>
+                        <li><a href="#" class="text-white"><i class="fa-solid fa-chart-simple mb-3 me-lg-3"></i><span class="fs-6 d-none d-lg-inline">Stats</span></a></li>
+                        <li><a href="#" class="text-white"><i class="fa-solid fa-signal me-lg-3"></i><span class="fs-6 d-none d-lg-inline">Signals</span></a></li>
                     </ul>
+                    <!-- *End top sidebar -->
                 </nav>
-                <div class="bottom-sidebar text-center py-4">
+                <!-- *Start bottom sidebar -->
+                <nav class="bottom-sidebar text-center py-4">
                     <ul class="">
-                        <li><a href="#" class="text-white"><i class="fa-solid fa-gear"></i><span class="fs-6 d-none d-lg-inline">Admin</span></a></li>
+                        <li><a href="#" class="text-white"><i class="fa-solid fa-gear me-lg-3"></i><span class="fs-6 d-none d-lg-inline">Admin</span></a></li>
                     </ul>
-                </div>
-            </div>
+                    <!-- *End bottom sidebar -->
+                </nav>
+                <!-- *End sidebar section -->
+            </section>
+            <!-- *Start main section -->
             <main>
+                <!-- *Start iside main header -->
                 <div class="inside-header"></div>
+                <!-- *End iside main header -->
+                <!-- *Start cards section -->
+                <section id="cards-section" class="p-3">
+                    <!-- *Start card table -->
+                    <div id="card-table" class="row g-3">
+                        <div class="col-12">
+                            <div class="card">
+                                <h5 class="card-title border-bottom p-3 fs-3">Prossime classi</h5>
+                                <div class="card-body">
+                                    <table class="table">
+                                        <thead>
+                                          <tr>
+                                              <th scope="col">Nome</th>
+                                              <th class="d-none d-md-inline" scope="col">Data inizio</th>
+                                              <th class="d-none d-md-inline" scope="col">ROI</th>
+                                              <th scope="col">Stato</th>
+                                              <th scope="col">Azioni</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <!-- *Line 1st -->
+                                            <th class="fw-normal" scope="row">
+                                                <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                                                <p class="d-md-none">Classe<br>75</p>
+                                                <span class="d-none d-md-inline">Classe 75</span>
+                                            </th>
+                                            <td class="d-none d-md-inline">15 Feb 2021</td>
+                                            <td class="d-none d-md-inline">20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-pen-to-square "></i></span>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-trash-can"></i></span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <!-- *Line 2nd -->
+                                            <th class="fw-normal" scope="row">
+                                                <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                                                <p class="d-md-none">Classe<br>76</p>
+                                                <span class="d-none d-md-inline">Classe 76</span>
+                                            </th>
+                                            <td class="d-none d-md-inline">15 Feb 2021</td>
+                                            <td class="d-none d-md-inline">20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-pen-to-square "></i></span>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-trash-can"></i></span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <!-- *Line 3th -->
+                                            <th class="fw-normal" scope="row">
+                                                <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                                                <p class="d-md-none">Classe<br>77</p>
+                                                <span class="d-none d-md-inline">Classe 77</span>
+                                            </th>
+                                            <td class="d-none d-md-inline">15 Feb 2021</td>
+                                            <td class="d-none d-md-inline">20%</td>
+                                            <td><span class="badge text-bg-warning">process</span></td>
+                                            <td>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-pen-to-square "></i></span>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-trash-can"></i></span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <!-- *Line 4th -->
+                                            <th class="fw-normal" scope="row">
+                                                <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                                                <p class="d-md-none">Classe<br>78</p>
+                                                <span class="d-none d-md-inline">Classe 78</span>
+                                            </th>
+                                            <td class="d-none d-md-inline">15 Feb 2021</td>
+                                            <td class="d-none d-md-inline">20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-pen-to-square "></i></span>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-trash-can"></i></span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <!-- *Line 5th -->
+                                            <th class="fw-normal" scope="row">
+                                                <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                                                <p class="d-md-none">Classe<br>79</p>
+                                                <span class="d-none d-md-inline">Classe 79</span>
+                                            </th>
+                                            <td class="d-none d-md-inline">15 Feb 2021</td>
+                                            <td class="d-none d-md-inline">20%</td>
+                                            <td><span class="badge text-bg-danger">Failed</span></td>
+                                            <td>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-pen-to-square "></i></span>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-trash-can"></i></span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <!-- *Line 5th -->
+                                            <th class="fw-normal" scope="row">
+                                                <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                                                <p class="d-md-none">Classe<br>80</p>
+                                                <span class="d-none d-md-inline">Classe 80</span>
+                                            </th>
+                                            <td class="d-none d-md-inline">15 Feb 2021</td>
+                                            <td class="d-none d-md-inline">20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-pen-to-square "></i></span>
+                                                <span class="border border-secondary px-2 py-1 rounded-1 text-muted"><i class="fa-solid fa-trash-can"></i></span>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="card-link">Card link</a>
+                                  <a href="#" class="card-link">Another link</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <!-- *End cards section -->
+                </section>
+                <!-- *End cards section -->
+                <!-- *End main section -->
             </main>
         </div>
-        
+        <!-- *Import CDN Bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

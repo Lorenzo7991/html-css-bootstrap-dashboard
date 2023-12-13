@@ -45,9 +45,6 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-        /* !T-R */
-        border: 2px solid yellow;
 }
 
 #img-logo-mobile{
@@ -86,13 +83,15 @@ header{
 main{
     flex-grow: 1;
     overflow: auto;
-
-    /* !T-R */
-    background-color: purple;
 }
 
 /* *Main Header */
 .inside-header{
     min-height: 100px;
     background-color: rgb(27, 114, 232) ;
+}
+
+/* *Main cards */
+#card-table img{
+    max-width: 30px;
 }
