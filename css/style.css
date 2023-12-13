@@ -8,7 +8,7 @@
 }
 
 .bg-cs-gray{
-    color: rgb(229, 229, 229);
+    background-color: rgb(229, 229, 229);
 } 
 
 
@@ -35,8 +35,6 @@ a{
     display: flex;
     height: calc(100vh - 80px);
 
-    /* !T-R */
-    background-color: rgb(229, 229, 229);
 }
 
 /* ^HEADER */
