@@ -14,6 +14,10 @@
 
 
 /* ^GENERICS */
+ul{
+    list-style: none;
+    text-decoration: none;
+}
 
 
 
@@ -30,15 +34,35 @@
 /* ^HEADER */
 header{
         min-height: 80px;
+        display: flex;
 
         /* !T-R */
         border: 2px solid yellow;
 }
 
+.header-list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#img-logo-mobile{
+    max-width: 60px;
+    height: auto;
+    display: block;
+}
+
+/* *Navigation bar rules */
+.form-control,
+.input-group-text{
+    background-color: rgb(229, 229, 229);
+    /* line-height: 1.8rem; */
+}
 
 /* ^SIDEBAR */
 .sidebar{
-    flex-basis: 100px;
+    flex-basis: 70px;
     flex-shrink: 0;
     background-color: rgb(5, 30, 52);
 }
