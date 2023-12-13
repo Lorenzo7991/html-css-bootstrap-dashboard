@@ -21,6 +21,7 @@ ul{
     margin: 0;
 }
 
+
 a{
     text-decoration: none;
     color: black;
@@ -49,12 +50,6 @@ header{
         border: 2px solid yellow;
 }
 
-.header-list{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 #img-logo-mobile{
     max-width: 60px;
     height: auto;
@@ -65,7 +60,7 @@ header{
 .form-control,
 .input-group-text{
     background-color: rgb(229, 229, 229);
-    /* line-height: 1.8rem; */
+     line-height: 1.8rem; 
 }
 
 /* ^SIDEBAR */

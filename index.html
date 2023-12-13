@@ -20,18 +20,22 @@
 
 
 <body>
+    <!-- *Start header section -->
         <header class="primary-header container-fluid">
-                <div class="me-3">
+            <!-- *Logo element -->
+                <div id="logo" class="me-3">
                     <a href="#"><img src="assets/img/mobile-logo.png" alt="mobile-page-logo" id="img-logo-mobile" class=" d-lg-none"></a>
                     <a href="#"><img src="assets/img/logo.svg" alt="logo" id="img-logo" class="d-none d-lg-block"></a>
                 </div>
-                <div class=" flex-grow-1">
+                <!-- *Search bar elemet -->
+                <div id="search-bar" class=" flex-grow-1">
                     <div class="input-group">
                     <span class="input-group-text border-0" id="basic-addon1"><i class="fa-solid fa-magnifying-glass fs-5"></i></span>
                     <input type="text" class="form-control border-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                   </div>
                 </div>
-                <div class="ms-4">
+                <!-- *Nav menu elemet -->
+                <div id="nav-menu" class="ms-4">
                     <ul class="d-flex align-items-center px-0">
                         <li class="d-none d-lg-block"><a href="#"><i class="fa-solid fa-list"></i></a></li>
                         <li class="d-none d-lg-block ps-3"><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
@@ -43,16 +47,16 @@
 
         <div class="wrapper">
             <div class="sidebar fs-5">
-                <nav class="top-sidebar">
+                <nav class="top-sidebar text-center py-4">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><a href="#" class="text-white"><i class="fa-solid fa-house mb-3"></i><span class="fs-6 d-none d-lg-inline">Home</span></a></li>
+                        <li><a href="#" class="text-white"><i class="fa-solid fa-chart-simple mb-3"></i><span class="fs-6 d-none d-lg-inline"> Stats</span></a></li>
+                        <li><a href="#" class="text-white"><i class="fa-solid fa-signal"></i><span class="fs-6 d-none d-lg-inline">Signals</span></a></li>
                     </ul>
                 </nav>
-                <div class="bottom-sidebar my-4">
-                    <ul class="text-white text-center">
-                        <li><i class="fa-solid fa-gear"></i></li>
+                <div class="bottom-sidebar text-center py-4">
+                    <ul class="">
+                        <li><a href="#" class="text-white"><i class="fa-solid fa-gear"></i><span class="fs-6 d-none d-lg-inline">Admin</span></a></li>
                     </ul>
                 </div>
             </div>
